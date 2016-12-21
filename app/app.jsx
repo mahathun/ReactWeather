@@ -8,8 +8,11 @@ var Examples = require('Examples');
 
 //loading foundatio
 require('style!css!foundation-sites/dist/foundation.min.css');
-
+//application css
+require('style!css!applicationStyles');
 $(document).foundation();
+
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main} >

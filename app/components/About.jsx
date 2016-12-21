@@ -11,7 +11,7 @@ var React = require('react');
 var About = (props)=>{
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>This React.js application will use the open weather map api and returns
          the Temperature of a given city. All the units will be in metric units.
       </p>
