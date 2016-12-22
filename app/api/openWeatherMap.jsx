@@ -6,7 +6,6 @@ module.exports = {
   getTemp : function(location){
     var encodedLocation = encodeURIComponent(location);
     var requestUrl = `${OPEN_WEATER_MAP_URL}&q=${location}`;
-    console.log(requestUrl);
 
     return axios.get(requestUrl).then(function(res){
       if(res.data.cod && res.data.message){
