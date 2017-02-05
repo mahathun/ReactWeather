@@ -1,4 +1,2 @@
-_site
-.sass-cache
+*Thumbs.db
 Gemfile.lock
-*.gem
