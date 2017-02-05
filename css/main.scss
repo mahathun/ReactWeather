@@ -1,0 +1,13 @@
+---
+---
+$sidebarBackgroundColor: rgb(95, 95, 99);
+$pageBackgroundColor: rgba(252, 248, 242, 0.94);
+
+
+body {
+  background-color: $pageBackgroundColor;
+}
+
+.sidebar{
+  background-color: $sidebarBackgroundColor; 
+}
